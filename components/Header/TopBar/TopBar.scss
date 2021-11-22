@@ -1,0 +1,33 @@
+.top-bar {
+  background-color: $bg-dark;
+  width: 100%;
+  &__row {
+    height: 90px;
+  }
+
+  .ui.grid {
+    margin: 0;
+    padding: 0;
+    .column {
+      padding: 0;
+    }
+  }
+  &__left {
+    display: flex !important;
+    align-items: center;
+
+    img {
+      height: 50px;
+      transition: all 0.5s;
+
+      &:hover {
+        transform: translateX(-15px);
+      }
+    }
+  }
+  &__right {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
