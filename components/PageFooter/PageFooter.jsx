@@ -5,10 +5,10 @@ const { Footer } = Layout;
 
 export default function PageFooter() {
   return (
-    <div>
+    <>
       <Layout>
-        <Footer>footer</Footer>
+        <Footer className="footer">footer</Footer>
       </Layout>
-    </div>
+    </>
   );
 }
