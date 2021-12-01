@@ -1,6 +1,22 @@
 .footer{
-    position: fixed bottom;
     background-color: $bg-dark;
     color: $primary;
     text-align: center;
+}
+
+.simpleLine{
+    height: 2px; 
+    background-color: $primary;
+}
+
+.mainRow{
+    padding-top: 5px;
+}
+
+h4{
+    color: $font-light
+}
+
+p{
+    color: $font-grey;
 }
