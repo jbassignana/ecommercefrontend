@@ -1,22 +1,30 @@
-.footer{
-    background-color: $bg-dark;
-    color: $primary;
-    text-align: center;
+.footer {
+  background-color: $bg-dark;
+  color: $primary;
+  text-align: center;
 }
 
-.simpleLine{
-    height: 2px; 
-    background-color: $primary;
+.simpleLine {
+  height: 2px;
+  background-color: $primary;
 }
 
-.mainRow{
-    padding-top: 5px;
+.mainRow {
+  padding-top: 5px;
 }
 
-h4{
-    color: $font-light
+h4 {
+  color: $font-light;
 }
 
-p{
+p {
+  color: $font-grey;
+  transition: all 0.5s;
+  &:hover {
+    transform: translateX(-15px);
+  }
+}
+
+span{
     color: $font-grey;
 }

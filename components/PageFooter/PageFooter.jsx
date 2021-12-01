@@ -36,7 +36,7 @@ export default function PageFooter() {
             </Col>
           </Row>
           <br />
-          <p>Copyright © 2021 Uruguay</p>
+          <span>Copyright © 2021 Uruguay</span>
         </Footer>
       </Layout>
     </>
