@@ -4,9 +4,12 @@ import MenuNavigation from "./MenuNavigation/";
 export default function Header() {
   return (
     <div className="header">
-      <TopBar />
-
-      {/* <MenuNavigation /> */}
+      {/* if there aren't more elements than topbar row and col tags should be removed */}
+      <Row>
+        <Col span={24}>
+          <TopBar />
+        </Col>
+      </Row>
     </div>
   );
 }

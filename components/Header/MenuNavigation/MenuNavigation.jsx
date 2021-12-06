@@ -10,10 +10,10 @@ import {
 } from "@ant-design/icons";
 const { SubMenu } = Menu;
 import React, { Component } from "react";
-
+import {} from "../../../assets/icons/ClothingTypes";
 export default class MenuNavigation extends React.Component {
   state = {
-    collapsed: false,
+    collapsed: true,
   };
 
   toggleCollapsed = () => {
@@ -37,7 +37,7 @@ export default class MenuNavigation extends React.Component {
           defaultSelectedKeys={["1"]}
           defaultOpenKeys={["sub1"]}
           mode="inline"
-          theme="dark"
+          theme="light"
           inlineCollapsed={this.state.collapsed}>
           <Menu.Item key="1" icon={<PieChartOutlined />}>
             Option 1

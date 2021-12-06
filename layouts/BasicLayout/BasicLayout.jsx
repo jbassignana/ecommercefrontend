@@ -2,21 +2,21 @@ import React from "react";
 import Header from "../../components/Header";
 import { Container } from "semantic-ui-react";
 import PageFooter from "../../components/PageFooter";
+import MenuNavigation from "../../components/Header/MenuNavigation";
 
 export default function BasicLayout(props) {
   const { children } = props;
 
   return (
-    <>
-      <Container fluid className="basic-layout">
-        <Header />
-      </Container>
+    <div className="pagewrapper">
+      <Header />
+
       <Container fluid className="content">
-        {children}
+        {<MenuNavigation />}
       </Container>
       <Container fluid className="footer">
         <PageFooter />
       </Container>
-    </>
+    </div>
   );
 }

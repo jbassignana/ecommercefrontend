@@ -1,3 +1,11 @@
-.content{
-    height: 450px;
+.content {
+  height: 450px;
+}
+.pagewrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  margin-top: auto;
 }

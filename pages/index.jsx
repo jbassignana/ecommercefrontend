@@ -4,8 +4,9 @@
 import BasicLayout from "../layouts/BasicLayout/BasicLayout";
 
 export default function Home() {
-  return ( <div>
-  <BasicLayout>Estamos en la home</BasicLayout>
-  
- </div>);
+  return (
+    <>
+      <BasicLayout>Estamos en la home</BasicLayout>
+    </>
+  );
 }
